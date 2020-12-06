@@ -13,7 +13,7 @@ public class DevopsK8sDemoApplication {
         SpringApplication.run(DevopsK8sDemoApplication.class, args);
     }
 
-    @GetMapping("say")
+    @GetMapping("/say")
     public String hello(){
         return "hello k8s devops";
     }

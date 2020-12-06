@@ -15,7 +15,7 @@ public class DevopsK8sDemoApplication {
 
     @GetMapping("/say")
     public String hello(){
-        return "hello k8s devops";
+        return "hello k8s devops-v2";
     }
 
 }
